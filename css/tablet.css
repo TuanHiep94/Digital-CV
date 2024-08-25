@@ -19,4 +19,19 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* project */
+
+  .project h4 {
+    font-size: 15px;
+  }
+
+  .projectMenu {
+    font-size: 10px;
+    max-width: 30vw;
+  }
+
+  .project .projectList {
+    gap: 2.5vw;
+  }
 }
