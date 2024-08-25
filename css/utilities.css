@@ -1,0 +1,66 @@
+.grid {
+  display: grid;
+}
+
+.container {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.boxBottom {
+  border-bottom: 1px solid rgba(221, 217, 218, 0.849);
+}
+
+.box {
+  border: 1px solid rgba(221, 217, 218, 0.849);
+  height: 150px;
+  position: relative;
+}
+
+.timeSP {
+  border: 1px solid rgba(221, 217, 218, 0.849);
+  border-radius: 25px;
+  background-color: rgba(0, 102, 255, 0.808);
+  color: white;
+  padding: 5px 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+.hide {
+  display: none;
+}

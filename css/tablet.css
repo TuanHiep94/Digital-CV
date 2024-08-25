@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .navbarUB::after {
+    display: none;
+  }
+
+  #avatar {
+    padding: 0 20px;
+  }
+
+  .infoList {
+    grid-template-columns: 2fr 4fr;
+  }
+
+  .containerGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cBox {
+    display: flex;
+    flex-direction: column;
+  }
+}

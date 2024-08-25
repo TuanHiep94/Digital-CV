@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+
+    <title>Assignment03</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="text">
+        <h1>Đinh Tuấn Hiệp</h1>
+        <p>Full Stack Developer</p>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="navbarUB">
+      <div class="container flex">
+        <ul class="flex mb-0">
+          <li>
+            <a href="#information"><i class="icon-user"></i>thông tin</a>
+          </li>
+          <li>
+            <a href="#detail"><i class="icon-doc-text-inv"></i>lý lịch</a>
+          </li>
+          <li id="avatar"></li>
+          <li>
+            <a href="#certificate"><i class="icon-mail-alt"></i>chứng chỉ</a>
+          </li>
+          <li>
+            <a href="#project"><i class="icon-star-1"></i>dự án</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Information -->
+    <section id="information" class="information">
+      <div class="container grid">
+        <div class="target">
+          <h2>Mục tiêu nghề nghiệp</h2>
+          <p>
+            Là một du học sinh về nước từ năm 2023 sau 6 năm học tập và làm việc
+            tại Nhật Bản. Trong quá trình còn là sinh viên, ngoài tham gia các
+            hoạt động trong trường (dạy tiếng Việt cho người Nhật, trợ
+            giảng,...) tôi còn có thời gian làm việc tại công ty Nhật về mảng
+            nhân sự và văn phòng. Trong môi trường làm việc chỉ có mình tôi là
+            người nước ngoài, do đó tôi đã hiểu được văn hóa, cách làm việc của
+            người Nhật. Sau khi về nước, tôi vẫn muốn tiếp tục được làm việc
+            trong một môi trường như vậy, cũng như là muốn trở thành một cầu nối
+            giữa Việt và Nhật. Sau một năm trở về nước làm việc, tôi muốn tiếp
+            cận về công nghệ thông tin nên hiện đang bắt đầu học về lập trình,
+            và tiến tới chuyển ngành trong thời gian tới.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Thông tin cá nhân</h2>
+          <div class="emailPrompt">
+            <input
+              type="email"
+              id="userEmail"
+              class="w-100"
+              placeholder="Enter email"
+            />
+            <p>Hãy nhập email để xác thực</p>
+            <button id="submitEmail">Submit</button>
+          </div>
+          <div class="hideArea hide">
+            <ul class="infoList">
+              <li class="label">Ngày sinh :</li>
+              <li>24/2/1994</li>
+              <li class="label">Giới tính :</li>
+              <li>Nam</li>
+              <li class="label">Điện thoại :</li>
+              <li>(+84) 912398xxx</li>
+              <li class="label">Email :</li>
+              <li>
+                <a href="mailto:hiepdtfx43055@funix.edu.vn"
+                  >hiepdtfx43055@funix.edu.vn</a
+                >
+              </li>
+              <li class="label">Địa chỉ :</li>
+              <li>Đà Nẵng, Việt Nam</li>
+              <li class="label">Website :</li>
+              <li>
+                <a href="http://abc.tech" target="_blank">http://abc.tech</a>
+              </li>
+            </ul>
+
+            <div class="link flex">
+              <ul>
+                <li>
+                  <a href="#" target="_blank"><i class="icon-twitter"></i> </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/dinhtuanhiep94/"
+                    target="_blank"
+                    ><i class="icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="icon-gplus"></i> </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="icon-linkedin"></i> </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Information Detail -->
+    <section id="detail" class="detail">
+      <div class="containerGrid">
+        <!-- Experience -->
+        <div class="experience box">
+          <div class="columnGird">
+            <h2>Kinh nghiệm</h2>
+            <i class="ic-toolbox"></i>
+            <div class="content1 hide">
+              <div class="contentPart">
+                <h5>Teamlead-Công ty FPT</h5>
+                <p class="time">
+                  06/2023 - <span class="timeSP">Hiện tại</span>
+                </p>
+                <p>
+                  - Xây dựng, phát triển dự án thông qua MTG, KT với khách hàng.
+                </p>
+                <p>
+                  - Vận hành các nghiệp vụ trong dự án, báo cáo cho cấp trên và
+                  khách hàng.
+                </p>
+                <p>- Quản lý và training cho các member trong team.</p>
+              </div>
+              <div class="contentPart">
+                <h5>Assistant - Công ty tuyển dụng nhân sự SoundGood</h5>
+                <p class="time">04/2022 - 10/2022</p>
+                <p>- Tuyển dụng lao động nước ngoài.</p>
+                <p>- Quản lý, hỗ trợ nhân sự đã được</p>
+              </div>
+            </div>
+            <div class="openClose">
+              <button class="openBtn hide">
+                <i class="fas fa-caret-down"></i>View More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education box">
+          <div class="columnGird">
+            <h2>Học vấn</h2>
+            <i class="ic-pencil"></i>
+            <div class="content1 hide">
+              <div class="contentPart">
+                <h5>Đại học Tenri</h5>
+                <p class="time">04/2019 - 03/2023</p>
+                <p>- Chuyên ngành: Nhật Bản học.</p>
+                <p>- GPA: 3.2 / 4</p>
+              </div>
+              <div class="contentPart">
+                <h5>Cao đẳng luật</h5>
+                <p class="time">09/2013 - 08/2015</p>
+                <p>- Tốt nghiệp chứng chỉ luật dân sự.</p>
+                <p>- GPA: 7 / 10</p>
+              </div>
+            </div>
+            <div class="openClose">
+              <button class="openBtn hide">
+                <i class="fas fa-caret-down"></i>View More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity -->
+        <div class="activity box">
+          <div class="columnGird">
+            <h2>Hoạt động</h2>
+            <i class="ic-toolbox"></i>
+            <div class="content1 hide">
+              <div class="contentPart">
+                <h5>FPT Edu Hackathon 2019</h5>
+                <p class="time">03/2019 - 05/2019</p>
+                <p>- Giải 3 bảng A</p>
+                <p>- Đề tài: Trang web về phân loại rác thải.</p>
+              </div>
+              <div class="contentPart">
+                <h5>Câu lạc bộ Z</h5>
+                <p class="time">08/2016 - 08/2017</p>
+                <p>- Trưởng ban chuyên môn</p>
+              </div>
+            </div>
+            <div class="openClose">
+              <button class="openBtn hide">
+                <i class="fas fa-caret-down"></i>View More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="hobbies box">
+          <div class="columnGird">
+            <h2>Sở thích</h2>
+            <i class="ic-telescope"></i>
+            <div class="content2 hide">
+              <i class="ic-megaphone"></i>
+              <i class="ic-strategy"></i>
+              <i class="ic-hotairballoon"></i>
+              <i class="ic-basket"></i>
+              <p>Âm nhạc</p>
+              <p>Chơi game</p>
+              <p>Du lịch</p>
+              <p>Nấu ăn</p>
+            </div>
+            <div class="openClose">
+              <button class="openBtn hide">
+                <i class="fas fa-caret-down"></i>View More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language -->
+        <div class="language box">
+          <div class="columnGird">
+            <h2>Ngôn ngữ</h2>
+            <i class="ic-mic"></i>
+            <div class="content3 hide">
+              <div class="languageList">
+                <li class="languageBox">
+                  <span class="languageText">Tiếng Anh - IELTS 7.0</span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine Gray"><div></div></span>
+                </li>
+                <li class="languageBox">
+                  <span class="languageText">Tiếng Nhật - JLPT N2</span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine"><div></div></span>
+                  <span class="languageLine"><div></div></span>
+                </li>
+              </div>
+            </div>
+            <div class="openClose">
+              <button class="openBtn hide">
+                <i class="fas fa-caret-down"></i>View More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill -->
+        <div class="skill box">
+          <div class="columnGird">
+            <h2>Kỹ năng</h2>
+            <i class="ic-tools-2"></i>
+            <div class="content3 hide">
+              <ul class="languageList">
+                <li class="languageBox">
+                  <span class="languageText">HTML/CSS: Fundamental</span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine Gray"><div></div></span>
+                  <span class="languageLine Gray"><div></div></span>
+                </li>
+                <li class="languageBox">
+                  <span class="languageText">Javascript: Intermediate</span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine Gray"><div></div></span>
+                </li>
+                <li class="languageBox">
+                  <span class="languageText">NodeJS: Intermediate</span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine Gray"><div></div></span>
+                </li>
+                <li class="languageBox">
+                  <span class="languageText">Bootstrap 5: Fundamental</span>
+                  <span class="languageLine rgba(0, 102, 255, 0.808)"
+                    ><div></div
+                  ></span>
+                  <span class="languageLine Gray"><div></div></span>
+                  <span class="languageLine Gray"><div></div></span>
+                </li>
+              </ul>
+            </div>
+            <div class="openClose">
+              <button class="openBtn hide">
+                <i class="fas fa-caret-down"></i>View More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate -->
+    <section id="certificate" class="certificate">
+      <div class="certificateBox grid">
+        <h2>Chứng chỉ - Giải thưởng</h2>
+        <div class="cItem">
+          <div class="cBox">
+            <div class="cImg"><img src="images/Cert_WEB.png" /></div>
+            <div class="cText">
+              <h4>chứng chỉ lập trình web - funix</h4>
+              <p>- Chứng chỉ thuộc chương trình CCDN</p>
+              <p>- GPA: 8.6</p>
+            </div>
+          </div>
+        </div>
+        <div class="line1"></div>
+        <div class="cItem">
+          <div class="cBox">
+            <div class="cImg"><img src="images/Cert_PRF.png" /></div>
+            <div class="cText">
+              <h4>chứng chỉ lập trình javascript - funix</h4>
+              <p>- Chứng chỉ thuộc chương trình CCDN</p>
+              <p>- GPA: 8.9</p>
+            </div>
+          </div>
+        </div>
+        <div class="line2"></div>
+        <div class="cItem">
+          <div class="cBox">
+            <div class="cImg"><img src="images/Cert_DBI.png" /></div>
+            <div class="cText">
+              <h4>chứng chỉ lập trình database - funix</h4>
+              <p>- Chứng chỉ thuộc chương trình CCDN</p>
+              <p>- GPA: 8.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section id="project" class="project">
+      <h2>Dự án</h2>
+      <div class="projectBox grid">
+        <div class="projectMenu">
+          <a href="project.html"><img src="images/project_1.png" /></a>
+          <div class="projectContent">
+            <h4 class="projectName boxBottom">Kế toán - ABC</h4>
+            <ul class="projectList flex boxBottom">
+              <li><span class="timeSP">2023</span></li>
+              <li><i class="icon-user-1"></i> ABC</li>
+              <li><i class="icon-lamp"></i> Teamlead</li>
+            </ul>
+            <table class="projectTable">
+              <tr>
+                <td style="width: 30%">Mô tả</td>
+                <td>- Thực hiện nghiệp vụ kế toán cho công ty ABC bên Nhật.</td>
+              </tr>
+              <tr>
+                <td>Nhiệm vụ</td>
+                <td>
+                  - Tham gia các buổi MTG, KT với khách hàng, để lấy quy trình,
+                  cách thức làm nghiệp vụ về cho công ty. Nghiên cứu, chạy thử
+                  nghiệp vụ, sau đó training cho các member. Quản lý member,
+                  khắc phục các vấn đề phát sinh.
+                </td>
+              </tr>
+              <tr>
+                <td>Công nghệ</td>
+                <td>- EXPLANNER/Ai</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="projectMenu">
+          <a href="project.html"><img src="images/project_2.png" /></a>
+          <div class="projectContent">
+            <h4 class="projectName boxBottom">Nhân sự - ABC</h4>
+            <ul class="projectList flex boxBottom">
+              <li><span class="timeSP">2024</span></li>
+              <li><i class="icon-user-1"></i> ABC</li>
+              <li><i class="icon-lamp"></i> Teamlead</li>
+            </ul>
+            <table class="projectTable">
+              <tr>
+                <td style="width: 30%">Mô tả</td>
+                <td>
+                  - Thực hiện nghiệp vụ nhân sự liên quan đến tính lương cho
+                  công ty ABC bên Nhật.
+                </td>
+              </tr>
+              <tr>
+                <td>Nhiệm vụ</td>
+                <td>
+                  - Tham gia các buổi MTG, KT với khách hàng, để lấy quy trình,
+                  cách thức làm nghiệp vụ về cho công ty. Nghiên cứu, chạy thử
+                  nghiệp vụ, sau đó training cho các member. Quản lý member,
+                  khắc phục các vấn đề phát sinh.
+                </td>
+              </tr>
+              <tr>
+                <td>Công nghệ</td>
+                <td>- Freee</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="projectMenu">
+          <a href="project.html"><img src="images/project_3.png" /></a>
+          <div class="projectContent">
+            <h4 class="projectName boxBottom">CV CÁ NHÂN</h4>
+            <ul class="projectList flex boxBottom">
+              <li><span class="timeSP">2024</span></li>
+              <li><i class="icon-user-1"></i> FUNiX</li>
+              <li><i class="icon-lamp"></i> Developer</li>
+            </ul>
+            <table class="projectTable">
+              <tr>
+                <td style="width: 30%">Mô tả</td>
+                <td>
+                  - Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                  như kỹ năng nghề nghiệp.
+                </td>
+              </tr>
+              <tr>
+                <td>Nhiệm vụ</td>
+                <td>- Phát triển, tối ưu code và xử lý lỗi.</td>
+              </tr>
+              <tr>
+                <td>Công nghệ</td>
+                <td>- HTML, CSS.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="contact">
+        <a href="https://www.facebook.com/dinhtuanhiep94/" target="_blank"
+          ><i class="icon-facebook-circled"></i> <span>Facebook</span></a
+        >
+
+        <a href="#" target="_blank"
+          ><i class="icon-linkedin-circled"></i> <span>Linkedin</span></a
+        >
+
+        <a href="#" target="_blank"
+          ><i class="icon-github-circled"></i> <span>Github</span></a
+        >
+      </div>
+    </footer>
+    <script src="scrip.js"></script>
+  </body>
+</html>

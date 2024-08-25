@@ -1,0 +1,78 @@
+@media (max-width: 500px) {
+  ul.flex.mb-0 {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .navbarUB ul {
+    border-right: 0;
+  }
+
+  .navbarUB li {
+    border-left: 0;
+    padding: 5px;
+  }
+
+  .detail {
+    display: grid;
+    justify-content: center;
+  }
+
+  .information .grid {
+    display: block;
+  }
+
+  .containerGrid {
+    display: block;
+    padding: 30px 0;
+    max-width: 400px;
+  }
+
+  .box {
+    margin: 40px 0;
+    width: 300px;
+  }
+
+  .certificateBox {
+    display: block;
+    padding: 30px 0;
+  }
+
+  .cItem {
+    padding: 30px 0;
+  }
+
+  .cBox {
+    display: block;
+  }
+
+  .cImg,
+  .cText {
+    padding: 0 20px;
+  }
+
+  .cText {
+    margin-top: 5px;
+  }
+
+  .line1,
+  .line2 {
+    border-bottom: 2px solid #c6c08d;
+  }
+
+  .projectBox {
+    display: block;
+  }
+
+  .projectMenu {
+    margin: 30px 0;
+  }
+
+  footer .contact a span {
+    display: none;
+  }
+
+  footer .contact i {
+    font-size: 50px;
+  }
+}

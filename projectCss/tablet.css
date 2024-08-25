@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    height: unset;
+  }
+
+  .team {
+    order: 3;
+  }
+  .timeline {
+    order: 5;
+  }
+
+  .scopes {
+    order: 2;
+  }
+
+  .primary {
+    order: 4;
+  }
+
+  .card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card_content_right,
+  .card_content_flex {
+    padding: 0 15px;
+  }
+
+  .timeline .card_content_left {
+    justify-content: unset;
+    padding: 0 15px;
+  }
+}
